@@ -34,7 +34,6 @@ Barrier Blitz is a simple Python-based game where two players control paddles on
    ```
    python Barrier_Blitz.py
 
-
 ## How to Play
 
 The game starts with a ball in the center of the screen. Each player controls a paddle on their side of the screen. The objective is to hit the ball past the opponent's paddle. The player make 1 point every goal.
