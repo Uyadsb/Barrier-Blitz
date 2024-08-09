@@ -34,8 +34,8 @@ ball.shape('square')
 ball.color('black')
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 0.2
-ball.dy = 0.2
+ball.dx = 0.2 # ball speed on x axis
+ball.dy = 0.2 # ball speed on y axis
 
 # score object
 score1 = 0 
@@ -52,34 +52,35 @@ score.write(" {} - {}".format(score1,score2), align="center", font=("Courier",24
 # move barrier one up
 def barrier_one_up():
     y = barrier_one.ycor()
-    y += 60
+    y += 60 # speed barrier up
     barrier_one.sety(y)
 
 # move barrier two up
 def barrier_two_up():
     y = barrier_two.ycor()
-    y += 60
+    y += 60 # speed barrier up
     barrier_two.sety(y)
 
 # move barrier one down
 def barrier_one_down():
     y = barrier_one.ycor()
-    y -= 60
+    y -= 60 # speed barrier down
     barrier_one.sety(y)
 
 # move barrier two down
 def barrier_two_down():
     y = barrier_two.ycor()
-    y -= 60
+    y -= 60  # speed barrier down
     barrier_two.sety(y)
     
     
 # keyboard press
-wind.listen()
-wind.onkeypress(barrier_one_up, 'z')
-wind.onkeypress(barrier_one_down, 's')
-wind.onkeypress(barrier_two_up, 'Up')
-wind.onkeypress(barrier_two_down, 'Down')
+def move_barreir():
+    wind.listen()
+    wind.onkeypress(barrier_one_up, 'z')
+    wind.onkeypress(barrier_one_down, 's')
+    wind.onkeypress(barrier_two_up, 'Up')
+    wind.onkeypress(barrier_two_down, 'Down')
 
 
 # ball collision with barrier
@@ -146,6 +147,7 @@ def move_ball():
 def main():
     while True:
         wind.update()
+        move_barreir()
         move_ball()
           
 main()
