@@ -25,11 +25,14 @@ Barrier Blitz is a simple Python-based game where two players control paddles on
    ```bash
    git clone https://github.com/uyadsb/Barrier-Blitz.git
 2. Navigate to the project directory:
-   ```cd barrier-blitz
+   ```
+   cd barrier-blitz
 3. Install the required dependencies:
-   ```pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
 4. Run the game:
-   ```python Barrier_Blitz.py
+   ```
+   python Barrier_Blitz.py
 
 
 ## How to Play
