@@ -74,7 +74,7 @@ def barrier_two_down():
     barrier_two.sety(y)
     
     
-# keyboard press
+# keyboard press to move barriers 
 def move_barreir():
     wind.listen()
     wind.onkeypress(barrier_one_up, 'z')
