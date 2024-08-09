@@ -1,5 +1,5 @@
 import turtle
-from random import randint
+
 from typing import Counter
 
 # initialize screen game
