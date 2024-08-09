@@ -2,7 +2,7 @@
 
 Barrier Blitz is a simple Python-based game where two players control paddles on opposite sides of the screen. The goal is to hit the moving ball past your opponent's paddle to score points. The player make one point every goal.
 
-![Barrier Blitz Screenshot](path-to-your-image-file)  
+![Barrier Blitz Screenshot]([path-to-your-image-file](https://github.com/Uyadsb/Barrier-Blitz/blob/main/barreier_blitz.jpg))  
 
 ## Table of Contents
 
